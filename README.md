@@ -4,7 +4,7 @@ Follow the installation setups from `https://kafka.apache.org/quickstart`. It's 
 Try out all the steps from the quickstart guide to get a hang of Kafka's terminology and console.
  
 
-#Code Base
+# Code Base
 Contains code to depict usage of Kafka APIs.
 
 1. SimpleProducer.java - A simple kafka producer which publishes to a topic.  
@@ -27,7 +27,7 @@ To check if anything is published, run a consumer listening on `test` topic via 
 Simply run `main` method of `SimpleConsumer.java`. It will listen to messages on 'test' topic and print on console.
 
 
-##### Streams: LineSplit
+###### Streams: LineSplit
 1. Run a producer for `streams-plaintext-input` topic via Kafka Console. `kafka-console-producer.sh --broker-list localhost:9092 --topic streams-plaintext-input`
 2. Run `main` method of `LineSplit.java`.
 3. Enter an sentence on producer console.
